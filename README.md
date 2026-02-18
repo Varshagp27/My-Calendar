@@ -11,7 +11,6 @@ A lightweight calendar app for managing events. No bloat—just a clean calendar
 - **🔍 Search** – Filter events by title and description
 - **🔔 Reminders** – Popup notifications for today and tomorrow
 - **💾 Auto-Save** – Events saved locally (persists across sessions)
-- **⚡ Conflict Detection** – Warns when events overlap
 
 ## 🚀 Getting Started
 
@@ -46,28 +45,13 @@ Just open `index.html` in a browser, or run a local server:
 ```bash
 python -m http.server 8000
 # or
-npx http-server
+Right click index.html - Open with Live Server
 ```
 
 ### Tech Stack
 - **Vanilla JavaScript** – No frameworks
 - **LocalStorage** – Events saved in browser (not cloud synced)
 - **HTML5 + CSS3** – Pure markup and styling
-- **ISO 8601 dates** – `YYYY-MM-DD` format
-- **24-hour time** – `HH:MM` format
-
-### Event Object
-```javascript
-{
-  id: string,
-  title: string,
-  date: "YYYY-MM-DD",
-  start: "HH:MM" | null,
-  end: "HH:MM" | null,
-  description: string,
-  remindMode: "off" | "popup"
-}
-```
 
 ### Key Functions
 - `render()` – Update calendar grid
@@ -81,24 +65,6 @@ npx http-server
 2. Make changes in a new branch
 3. Test in multiple browsers
 4. Submit a pull request
-
-### Enhancement Ideas
-- Dark mode
-- Recurring events
-- Event categories/colors
-- Import/export (ICS, CSV)
-- Keyboard shortcuts
-- i18n support
-
-## 📋 Quick Test Checklist
-
-- [ ] Previous/Next/Today buttons work
-- [ ] Add/edit/delete events
-- [ ] Search filters events
-- [ ] Events persist after refresh
-- [ ] Reminders display correctly
-- [ ] Conflict detection works
-- [ ] Mobile/tablet layout works
 
 ## 🌐 Browser Support
 
