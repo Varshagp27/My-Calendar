@@ -75,6 +75,3 @@ Chrome, Firefox, Safari, Edge (any modern browser with ES6 support)
 ---
 
 **Questions?** Submit an issue or PR!
-=======
-# My-Calendar
->>>>>>> 37cd727f16441e4bf49105921d23dc779a7e590e
